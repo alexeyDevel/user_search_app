@@ -1,0 +1,20 @@
+version: "3"
+services:
+  server:
+    build:
+      context: ./server_app
+      dockerfile: Dockerfile
+    ports:
+      - "4050:4050"
+    container_name: server_container
+    environment:
+      - PORT=4050
+  client:
+    build:
+      context: ./client_app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_PORT=3000
+    container_name: client_container
