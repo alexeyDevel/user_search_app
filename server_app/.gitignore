@@ -1,0 +1,37 @@
+# Папки и файлы, созданные npm и yarn
+node_modules/
+package-lock.json
+yarn-error.log
+yarn.lock
+
+# Переменные окружения (файл .env)
+.env
+
+# Логи и временные файлы
+logs/
+*.log
+npm-debug.log*
+
+# Файлы конфигурации
+config.js
+config.json
+
+# Папка для сгенерированных файлов
+dist/
+
+# Папка для файлов, созданных IDE
+.idea/
+
+# Временные файлы
+*.tmp
+
+# Файлы, содержащие секретные ключи и пароли
+*.pem
+*.key
+*.cer
+
+# Зависимости Bower
+bower_components/
+
+# Зависимости Composer
+vendor/

@@ -1,0 +1,61 @@
+.formControl {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.formControl {
+  margin-top: 20px;
+}
+.label {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 10px 0;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.helperText {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
+.errorMessage {
+  color: #ff0000;
+  margin-top: 5px;
+}
+.numberInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.showHideButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.showHideButton:hover {
+  background-color: #0056b3;
+}
+.button{
+    width: 100%;
+    margin: 15px auto 1rem;
+}
+.passwordInputWrapper {
+    height: 100%;
+    padding-right: 10px;
+}
