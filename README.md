@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инструкции по запуску сервисов</title>
+</head>
+<body>
     <h1>Инструкции по запуску сервисов</h1>
 
     <h2>client_app</h2>
@@ -79,3 +87,5 @@
             npm start
         </code>
     </pre>
+</body>
+</html>
